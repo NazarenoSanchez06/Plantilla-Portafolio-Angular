@@ -1,0 +1,81 @@
+
+.detel{
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.detel h1{
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+span{
+    color: orange;
+    
+}
+
+
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape{
+    bottom: 40px;
+}
+
+.images:hover .girl{
+    left: 45%;
+}
+
+.social{
+    margin-left: 8%;
+    margin-top: 100px;
+}
+
+.social a{
+    font-size:38px;
+    color: #212121;
+    margin-right: 20px;
+}
+
+.social a:hover{
+    color: orange;
+}
+.f-name{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 15ch;
+    animation: typing 2s steps(16),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+
+}
+@keyframes typing{
+    from {width: 0;}
+}
+@keyframes blink{
+    50%{border-color: transparent;}
+    
+}
+
+  
+  
+ 
+
+
